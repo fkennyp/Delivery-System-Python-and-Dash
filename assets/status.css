@@ -1,0 +1,113 @@
+#status-header{
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #D9230F , rgb(255, 95, 95), white);
+    margin: 0;
+}
+
+#button-container-status, #button-container-del-status, #button-container-edit-status, #button-container-view-status, #button-container-add-status{
+    margin: 15px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+#add-page-button-status, #edit-page-button-status, #delete-page-button-status, #view-page-button-status,
+#del-button-status, #edit-button-status, #add-button-status,
+#back-add-button-status, #back-view-button-status, #back-edit-button-status, #back-del-button-status{
+    border: 0;
+    margin: 0px 0px 0px 0px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+}
+#view-page-button-status{padding: 5px 15px 5px 15px;}
+#add-page-button-status:hover, #edit-page-button-status:hover, #delete-page-button-status:hover, #view-page-button-status:hover,
+#del-button-status:hover, #edit-button-status:hover, #add-button-status:hover,
+#back-add-button-status:hover, #back-view-button-status:hover, #back-edit-button-status:hover, #back-del-button-status:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.6s;
+}
+#add-page-button-status:active, #edit-page-button-status:active, #delete-page-button-status:active, #view-page-button-status:active,
+#del-button-status:active, #edit-button-status:active, #add-button-status:active, 
+#back-add-button-status:active, #back-view-button-status:active, #back-edit-button-status:active, #back-del-button-status:active{
+    color: white;
+    background-color: black;
+}
+
+#add-page-link-status, #edit-page-link-status, #delete-page-link-status
+{
+    color: white;
+    font-size: 16pt;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+#add-page-link-status:hover, #edit-page-link-status:hover, #delete-page-link-status:hover{
+    color: rgb(255, 95, 95);
+    transition: 0.6s;
+}
+
+.status-add-label, #edit-notif-status, #del-notif-status, #add-notif-status{
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+#row-view-status{
+    top: 20%;
+    left: 0;
+    right: 0;
+    width: 98%;
+    height: auto;
+    background-color: lightgray;
+    margin: auto;
+}
+
+.view-value-status{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+
+#status-row{
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#export-status{
+    color: white;
+    border:5px;
+    background-color: red;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#export-status:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.2s;
+}
+#export-status:active{
+    color: red;
+    background-color: black;
+    transition: 0s;
+}
+
+
+#refresh-page-button-status, #refresh-button-del-status, #refresh-button-edit-status{ /* no display, just to update */
+    padding: 0px;
+    border: none;
+    background: transparent;
+    font-size: 0;
+}
+
+
+

@@ -1,0 +1,113 @@
+#store-header{
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #D9230F , rgb(255, 95, 95), white);
+    margin: 0;
+}
+
+#button-container-stores, #button-container-del-stores, #button-container-edit-stores, #button-container-view-stores, #button-container-add-stores{
+    margin: 15px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+#add-page-button-stores, #edit-page-button-stores, #delete-page-button-stores, #view-page-button-stores,
+#del-button-stores, #edit-button-stores, #add-button-stores,
+#back-add-button-stores, #back-view-button-stores, #back-edit-button-stores, #back-del-button-stores{
+    border: 0;
+    margin: 0px 0px 0px 0px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+}
+#view-page-button-stores{padding: 5px 15px 5px 15px;}
+#add-page-button-stores:hover, #edit-page-button-stores:hover, #delete-page-button-stores:hover, #view-page-button-stores:hover,
+#del-button-stores:hover, #edit-button-stores:hover, #add-button-stores:hover,
+#back-add-button-stores:hover, #back-view-button-stores:hover, #back-edit-button-stores:hover, #back-del-button-stores:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.6s;
+}
+#add-page-button-stores:active, #edit-page-button-stores:active, #delete-page-button-stores:active, #view-page-button-stores:active,
+#del-button-stores:active, #edit-button-stores:active, #add-button-stores:active, 
+#back-add-button-stores:active, #back-view-button-stores:active, #back-edit-button-stores:active, #back-del-button-stores:active{
+    color: white;
+    background-color: black;
+}
+
+#add-page-link-stores, #edit-page-link-stores, #delete-page-link-stores
+{
+    color: white;
+    font-size: 16pt;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+#add-page-link-stores:hover, #edit-page-link-stores:hover, #delete-page-link-stores:hover{
+    color: rgb(255, 95, 95);
+    transition: 0.6s;
+}
+
+.stores-add-label, #edit-notif-stores, #del-notif-stores, #add-notif-stores{
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+#row-view-stores{
+    top: 20%;
+    left: 0;
+    right: 0;
+    width: 98%;
+    height: auto;
+    background-color: lightgray;
+    margin: auto;
+}
+
+.view-value-stores{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+
+#stores-row{
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#export-stores{
+    color: white;
+    border:5px;
+    background-color: red;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#export-stores:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.2s;
+}
+#export-stores:active{
+    color: red;
+    background-color: black;
+    transition: 0s;
+}
+
+
+#refresh-page-button-stores, #refresh-button-del-stores, #refresh-button-edit-stores{ /* no display, just to update */
+    padding: 0px;
+    border: none;
+    background: transparent;
+    font-size: 0;
+}
+
+
+

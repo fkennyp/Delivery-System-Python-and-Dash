@@ -1,0 +1,113 @@
+#menu-header{
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #D9230F , rgb(255, 95, 95), white);
+    margin: 0;
+}
+
+#button-container-menus, #button-container-del-menus, #button-container-edit-menus, #button-container-view-menus, #button-container-add-menus{
+    margin: 15px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+#add-page-button-menus, #edit-page-button-menus, #delete-page-button-menus, #view-page-button-menus,
+#del-button-menus, #edit-button-menus, #add-button-menus,
+#back-add-button-menus, #back-view-button-menus, #back-edit-button-menus, #back-del-button-menus{
+    border: 0;
+    margin: 0px 0px 0px 0px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+}
+#view-page-button-menus{padding: 5px 15px 5px 15px;}
+#add-page-button-menus:hover, #edit-page-button-menus:hover, #delete-page-button-menus:hover, #view-page-button-menus:hover,
+#del-button-menus:hover, #edit-button-menus:hover, #add-button-menus:hover,
+#back-add-button-menus:hover, #back-view-button-menus:hover, #back-edit-button-menus:hover, #back-del-button-menus:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.6s;
+}
+#add-page-button-menus:active, #edit-page-button-menus:active, #delete-page-button-menus:active, #view-page-button-menus:active,
+#del-button-menus:active, #edit-button-menus:active, #add-button-menus:active, 
+#back-add-button-menus:active, #back-view-button-menus:active, #back-edit-button-menus:active, #back-del-button-menus:active{
+    color: white;
+    background-color: black;
+}
+
+#add-page-link-menus, #edit-page-link-menus, #delete-page-link-menus
+{
+    color: white;
+    font-size: 16pt;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+#add-page-link-menus:hover, #edit-page-link-menus:hover, #delete-page-link-menus:hover{
+    color: rgb(255, 95, 95);
+    transition: 0.6s;
+}
+
+.menus-add-label, #edit-notif-menus, #del-notif-menus, #add-notif-menus{
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+#row-view-menus{
+    top: 20%;
+    left: 0;
+    right: 0;
+    width: 98%;
+    height: auto;
+    background-color: lightgray;
+    margin: auto;
+}
+
+.view-value-menus{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+
+#menus-row{
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#export-menus{
+    color: white;
+    border:5px;
+    background-color: red;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#export-menus:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.2s;
+}
+#export-menus:active{
+    color: red;
+    background-color: black;
+    transition: 0s;
+}
+
+
+#refresh-page-button-menus, #refresh-button-del-menus, #refresh-button-edit-menus{ /* no display, just to update */
+    padding: 0px;
+    border: none;
+    background: transparent;
+    font-size: 0;
+}
+
+
+

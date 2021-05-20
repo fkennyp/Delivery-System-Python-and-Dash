@@ -1,0 +1,113 @@
+#user-header{
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #D9230F , rgb(255, 95, 95), white);
+    margin: 0;
+}
+
+#button-container-users, #button-container-del-users, #button-container-edit-users, #button-container-view-users, #button-container-add-users{
+    margin: 15px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+#add-page-button-users, #edit-page-button-users, #delete-page-button-users, #view-page-button-users,
+#del-button-users, #edit-button-users, #add-button-users,
+#back-add-button-users, #back-view-button-users, #back-edit-button-users, #back-del-button-users{
+    border: 0;
+    margin: 0px 0px 0px 0px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+}
+#view-page-button-users{padding: 5px 15px 5px 15px;}
+#add-page-button-users:hover, #edit-page-button-users:hover, #delete-page-button-users:hover, #view-page-button-users:hover,
+#del-button-users:hover, #edit-button-users:hover, #add-button-users:hover,
+#back-add-button-users:hover, #back-view-button-users:hover, #back-edit-button-users:hover, #back-del-button-users:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.6s;
+}
+#add-page-button-users:active, #edit-page-button-users:active, #delete-page-button-users:active, #view-page-button-users:active,
+#del-button-users:active, #edit-button-users:active, #add-button-users:active, 
+#back-add-button-users:active, #back-view-button-users:active, #back-edit-button-users:active, #back-del-button-users:active{
+    color: white;
+    background-color: black;
+}
+
+#add-page-link-users, #edit-page-link-users, #delete-page-link-users
+{
+    color: white;
+    font-size: 16pt;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+#add-page-link-users:hover, #edit-page-link-users:hover, #delete-page-link-users:hover{
+    color: rgb(255, 95, 95);
+    transition: 0.6s;
+}
+
+.users-add-label, #edit-notif-users, #del-notif-users, #add-notif-users{
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+#row-view-users{
+    top: 20%;
+    left: 0;
+    right: 0;
+    width: 98%;
+    height: auto;
+    background-color: lightgray;
+    margin: auto;
+}
+
+.view-value-users{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+
+#users-row{
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#export-users{
+    color: white;
+    border:5px;
+    background-color: red;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#export-users:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.2s;
+}
+#export-users:active{
+    color: red;
+    background-color: black;
+    transition: 0s;
+}
+
+
+#refresh-page-button-users, #refresh-button-del-users, #refresh-button-edit-users{ /* no display, just to update */
+    padding: 0px;
+    border: none;
+    background: transparent;
+    font-size: 0;
+}
+
+
+

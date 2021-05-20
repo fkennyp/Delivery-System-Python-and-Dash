@@ -1,0 +1,113 @@
+#groupmenu-header{
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #D9230F , rgb(255, 95, 95), white);
+    margin: 0;
+}
+
+#button-container-groupmenus, #button-container-del-groupmenus, #button-container-edit-groupmenus, #button-container-view-groupmenus, #button-container-add-groupmenus{
+    margin: 15px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+#add-page-button-groupmenus, #edit-page-button-groupmenus, #delete-page-button-groupmenus, #view-page-button-groupmenus,
+#del-button-groupmenus, #edit-button-groupmenus, #add-button-groupmenus,
+#back-add-button-groupmenus, #back-view-button-groupmenus, #back-edit-button-groupmenus, #back-del-button-groupmenus{
+    border: 0;
+    margin: 0px 0px 0px 0px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+}
+#view-page-button-groupmenus{padding: 5px 15px 5px 15px;}
+#add-page-button-groupmenus:hover, #edit-page-button-groupmenus:hover, #delete-page-button-groupmenus:hover, #view-page-button-groupmenus:hover,
+#del-button-groupmenus:hover, #edit-button-groupmenus:hover, #add-button-groupmenus:hover,
+#back-add-button-groupmenus:hover, #back-view-button-groupmenus:hover, #back-edit-button-groupmenus:hover, #back-del-button-groupmenus:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.6s;
+}
+#add-page-button-groupmenus:active, #edit-page-button-groupmenus:active, #delete-page-button-groupmenus:active, #view-page-button-groupmenus:active,
+#del-button-groupmenus:active, #edit-button-groupmenus:active, #add-button-groupmenus:active, 
+#back-add-button-groupmenus:active, #back-view-button-groupmenus:active, #back-edit-button-groupmenus:active, #back-del-button-groupmenus:active{
+    color: white;
+    background-color: black;
+}
+
+#add-page-link-groupmenus, #edit-page-link-groupmenus, #delete-page-link-groupmenus
+{
+    color: white;
+    font-size: 16pt;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+#add-page-link-groupmenus:hover, #edit-page-link-groupmenus:hover, #delete-page-link-groupmenus:hover{
+    color: rgb(255, 95, 95);
+    transition: 0.6s;
+}
+
+.groupmenus-add-label, #edit-notif-groupmenus, #del-notif-groupmenus, #add-notif-groupmenus{
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+#row-view-groupmenus{
+    top: 20%;
+    left: 0;
+    right: 0;
+    width: 98%;
+    height: auto;
+    background-color: lightgray;
+    margin: auto;
+}
+
+.view-value-groupmenus{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+
+#groupmenus-row{
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#export-groupmenus{
+    color: white;
+    border:5px;
+    background-color: red;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#export-groupmenus:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.2s;
+}
+#export-groupmenus:active{
+    color: red;
+    background-color: black;
+    transition: 0s;
+}
+
+
+#refresh-page-button-groupmenus, #refresh-button-del-groupmenus, #refresh-button-edit-groupmenus{ /* no display, just to update */
+    padding: 0px;
+    border: none;
+    background: transparent;
+    font-size: 0;
+}
+
+
+

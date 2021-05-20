@@ -1,0 +1,27 @@
+#transhome-header{
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #D9230F , rgb(255, 95, 95), white);
+    margin: 0;
+}
+
+#label-transhome{
+    padding: 10px;
+    /* position: relative; */
+    /* left: 5%; */
+    margin: 0;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+#date-container-trans{
+    margin-top: 20px;
+}
+
+#top-sent{
+    margin: 5px 0px 5px 0px;
+}
+
+#top-trans{
+    padding: 30px 0px 5px 0px;
+} 

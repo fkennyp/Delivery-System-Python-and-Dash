@@ -1,0 +1,31 @@
+.modebar{ /* toolbar pada setiap chart */
+    display: none;
+}
+.pilihan{
+    padding: 5px;
+    margin: 0;
+    font-weight: bolder;
+    position: relative;
+    left: 50%;
+}
+
+#home-content{
+    display: flex;
+    margin-top: 5%;
+}
+#pie-chart-home{
+    position:relative;
+    top: 11%;
+}
+#pie-container, #line-container, #bar-container{
+    width: 33.3%;
+}
+
+@media only screen and (max-width: 768px) {
+    #home-content{
+        flex-direction: column;
+    }
+    #pie-container, #line-container, #bar-container{
+        width: 100%;
+    }
+}

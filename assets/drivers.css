@@ -1,0 +1,113 @@
+#driver-header{
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #D9230F , rgb(255, 95, 95), white);
+    margin: 0;
+}
+
+#button-container-drivers, #button-container-del-drivers, #button-container-edit-drivers, #button-container-view-drivers, #button-container-add-drivers{
+    margin: 15px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+#add-page-button-drivers, #edit-page-button-drivers, #delete-page-button-drivers, #view-page-button-drivers,
+#del-button-drivers, #edit-button-drivers, #add-button-drivers,
+#back-add-button-drivers, #back-view-button-drivers, #back-edit-button-drivers, #back-del-button-drivers{
+    border: 0;
+    margin: 0px 0px 0px 0px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+}
+#view-page-button-drivers{padding: 5px 15px 5px 15px;}
+#add-page-button-drivers:hover, #edit-page-button-drivers:hover, #delete-page-button-drivers:hover, #view-page-button-drivers:hover,
+#del-button-drivers:hover, #edit-button-drivers:hover, #add-button-drivers:hover,
+#back-add-button-drivers:hover, #back-view-button-drivers:hover, #back-edit-button-drivers:hover, #back-del-button-drivers:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.6s;
+}
+#add-page-button-drivers:active, #edit-page-button-drivers:active, #delete-page-button-drivers:active, #view-page-button-drivers:active,
+#del-button-drivers:active, #edit-button-drivers:active, #add-button-drivers:active, 
+#back-add-button-drivers:active, #back-view-button-drivers:active, #back-edit-button-drivers:active, #back-del-button-drivers:active{
+    color: white;
+    background-color: black;
+}
+
+#add-page-link-drivers, #edit-page-link-drivers, #delete-page-link-drivers
+{
+    color: white;
+    font-size: 16pt;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+#add-page-link-drivers:hover, #edit-page-link-drivers:hover, #delete-page-link-drivers:hover{
+    color: rgb(255, 95, 95);
+    transition: 0.6s;
+}
+
+.drivers-add-label, #edit-notif-drivers, #del-notif-drivers, #add-notif-drivers{
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+#row-view-drivers{
+    top: 20%;
+    left: 0;
+    right: 0;
+    width: 98%;
+    height: auto;
+    background-color: lightgray;
+    margin: auto;
+}
+
+.view-value-drivers{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+
+#drivers-row{
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#export-drivers{
+    color: white;
+    border:5px;
+    background-color: red;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#export-drivers:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.2s;
+}
+#export-drivers:active{
+    color: red;
+    background-color: black;
+    transition: 0s;
+}
+
+
+#refresh-page-button-drivers, #refresh-button-del-drivers, #refresh-button-edit-drivers{ /* no display, just to update */
+    padding: 0px;
+    border: none;
+    background: transparent;
+    font-size: 0;
+}
+
+
+

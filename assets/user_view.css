@@ -1,0 +1,51 @@
+#user-view-header{
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #D9230F , rgb(255, 95, 95), white);
+    margin: 0;
+}
+
+#name-user-view{
+    padding: 10px;
+    margin: 15px;
+    width: auto;
+    float: right;
+    font-weight: bold;
+    font-size: 16pt;
+    position: relative;
+    left: -10%;
+    background-color: lightgray;
+    color: black;
+}
+
+.modebar{ /* toolbar pada setiap chart */
+    display: none;
+}
+.pilihan-user{
+    padding: 5px;
+    margin: 0;
+    font-weight: bolder;
+    position: relative;
+    left: 50%;
+}
+
+#user-view-content{
+    display: flex;
+    margin-top: 5%;
+}
+#pie-chart-user{
+    position:relative;
+    top: 11%;
+}
+#pie-container-user, #line-container-user, #bar-container-user{
+    width: 33.3%;
+}
+
+@media only screen and (max-width: 768px) {
+    #home-content{
+        flex-direction: column;
+    }
+    #pie-container-user, #line-container-user, #bar-container-user{
+        width: 100%;
+    }
+}

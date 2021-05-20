@@ -1,0 +1,113 @@
+#groupuser-header{
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #D9230F , rgb(255, 95, 95), white);
+    margin: 0;
+}
+
+#button-container-groupusers, #button-container-del-groupusers, #button-container-edit-groupusers, #button-container-view-groupusers, #button-container-add-groupusers{
+    margin: 15px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+#add-page-button-groupusers, #edit-page-button-groupusers, #delete-page-button-groupusers, #view-page-button-groupusers,
+#del-button-groupusers, #edit-button-groupusers, #add-button-groupusers,
+#back-add-button-groupusers, #back-view-button-groupusers, #back-edit-button-groupusers, #back-del-button-groupusers{
+    border: 0;
+    margin: 0px 0px 0px 0px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+}
+#view-page-button-groupusers{padding: 5px 15px 5px 15px;}
+#add-page-button-groupusers:hover, #edit-page-button-groupusers:hover, #delete-page-button-groupusers:hover, #view-page-button-groupusers:hover,
+#del-button-groupusers:hover, #edit-button-groupusers:hover, #add-button-groupusers:hover,
+#back-add-button-groupusers:hover, #back-view-button-groupusers:hover, #back-edit-button-groupusers:hover, #back-del-button-groupusers:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.6s;
+}
+#add-page-button-groupusers:active, #edit-page-button-groupusers:active, #delete-page-button-groupusers:active, #view-page-button-groupusers:active,
+#del-button-groupusers:active, #edit-button-groupusers:active, #add-button-groupusers:active, 
+#back-add-button-groupusers:active, #back-view-button-groupusers:active, #back-edit-button-groupusers:active, #back-del-button-groupusers:active{
+    color: white;
+    background-color: black;
+}
+
+#add-page-link-groupusers, #edit-page-link-groupusers, #delete-page-link-groupusers
+{
+    color: white;
+    font-size: 16pt;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+#add-page-link-groupusers:hover, #edit-page-link-groupusers:hover, #delete-page-link-groupusers:hover{
+    color: rgb(255, 95, 95);
+    transition: 0.6s;
+}
+
+.groupusers-add-label, #edit-notif-groupusers, #del-notif-groupusers, #add-notif-groupusers{
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+#row-view-groupusers{
+    top: 20%;
+    left: 0;
+    right: 0;
+    width: 98%;
+    height: auto;
+    background-color: lightgray;
+    margin: auto;
+}
+
+.view-value-groupusers{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+
+#groupusers-row{
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#export-groupusers{
+    color: white;
+    border:5px;
+    background-color: red;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#export-groupusers:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.2s;
+}
+#export-groupusers:active{
+    color: red;
+    background-color: black;
+    transition: 0s;
+}
+
+
+#refresh-page-button-groupusers, #refresh-button-del-groupusers, #refresh-button-edit-groupusers{ /* no display, just to update */
+    padding: 0px;
+    border: none;
+    background: transparent;
+    font-size: 0;
+}
+
+
+

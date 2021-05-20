@@ -1,0 +1,113 @@
+#product-header{
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #D9230F , rgb(255, 95, 95), white);
+    margin: 0;
+}
+
+#button-container-prods, #button-container-del-prods, #button-container-edit-prods, #button-container-view-prods, #button-container-add-prods{
+    margin: 15px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+#add-page-button-prods, #edit-page-button-prods, #delete-page-button-prods, #view-page-button-prods,
+#del-button-prods, #edit-button-prods, #add-button-prods,
+#back-add-button-prods, #back-view-button-prods, #back-edit-button-prods, #back-del-button-prods{
+    border: 0;
+    margin: 0px 0px 0px 0px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+}
+#view-page-button-prods{padding: 5px 15px 5px 15px;}
+#add-page-button-prods:hover, #edit-page-button-prods:hover, #delete-page-button-prods:hover, #view-page-button-prods:hover,
+#del-button-prods:hover, #edit-button-prods:hover, #add-button-prods:hover,
+#back-add-button-prods:hover, #back-view-button-prods:hover, #back-edit-button-prods:hover, #back-del-button-prods:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.6s;
+}
+#add-page-button-prods:active, #edit-page-button-prods:active, #delete-page-button-prods:active, #view-page-button-prods:active,
+#del-button-prods:active, #edit-button-prods:active, #add-button-prods:active, 
+#back-add-button-prods:active, #back-view-button-prods:active, #back-edit-button-prods:active, #back-del-button-prods:active{
+    color: white;
+    background-color: black;
+}
+
+#add-page-link-prods, #edit-page-link-prods, #delete-page-link-prods
+{
+    color: white;
+    font-size: 16pt;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+#add-page-link-prods:hover, #edit-page-link-prods:hover, #delete-page-link-prods:hover{
+    color: rgb(255, 95, 95);
+    transition: 0.6s;
+}
+
+.prods-add-label, #edit-notif-prods, #del-notif-prods, #add-notif-prods{
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+#row-view-prods{
+    top: 20%;
+    left: 0;
+    right: 0;
+    width: 98%;
+    height: auto;
+    background-color: lightgray;
+    margin: auto;
+}
+
+.view-value-prods{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+
+#prods-row{
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#export-prods{
+    color: white;
+    border:5px;
+    background-color: red;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#export-prods:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.2s;
+}
+#export-prods:active{
+    color: red;
+    background-color: black;
+    transition: 0s;
+}
+
+
+#refresh-page-button-prods, #refresh-button-del-prods, #refresh-button-edit-prods{ /* no display, just to update */
+    padding: 0px;
+    border: none;
+    background: transparent;
+    font-size: 0;
+}
+
+
+

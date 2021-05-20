@@ -1,0 +1,113 @@
+#vehicle-header{
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #D9230F , rgb(255, 95, 95), white);
+    margin: 0;
+}
+
+#button-container-vehicles, #button-container-del-vehicles, #button-container-edit-vehicles, #button-container-view-vehicles, #button-container-add-vehicles{
+    margin: 15px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+#add-page-button-vehicles, #edit-page-button-vehicles, #delete-page-button-vehicles, #view-page-button-vehicles,
+#del-button-vehicles, #edit-button-vehicles, #add-button-vehicles,
+#back-add-button-vehicles, #back-view-button-vehicles, #back-edit-button-vehicles, #back-del-button-vehicles{
+    border: 0;
+    margin: 0px 0px 0px 0px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+}
+#view-page-button-vehicles{padding: 5px 15px 5px 15px;}
+#add-page-button-vehicles:hover, #edit-page-button-vehicles:hover, #delete-page-button-vehicles:hover, #view-page-button-vehicles:hover,
+#del-button-vehicles:hover, #edit-button-vehicles:hover, #add-button-vehicles:hover,
+#back-add-button-vehicles:hover, #back-view-button-vehicles:hover, #back-edit-button-vehicles:hover, #back-del-button-vehicles:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.6s;
+}
+#add-page-button-vehicles:active, #edit-page-button-vehicles:active, #delete-page-button-vehicles:active, #view-page-button-vehicles:active,
+#del-button-vehicles:active, #edit-button-vehicles:active, #add-button-vehicles:active, 
+#back-add-button-vehicles:active, #back-view-button-vehicles:active, #back-edit-button-vehicles:active, #back-del-button-vehicles:active{
+    color: white;
+    background-color: black;
+}
+
+#add-page-link-vehicles, #edit-page-link-vehicles, #delete-page-link-vehicles
+{
+    color: white;
+    font-size: 16pt;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+#add-page-link-vehicles:hover, #edit-page-link-vehicles:hover, #delete-page-link-vehicles:hover{
+    color: rgb(255, 95, 95);
+    transition: 0.6s;
+}
+
+.vehicles-add-label, #edit-notif-vehicles, #del-notif-vehicles, #add-notif-vehicles{
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+#row-view-vehicles{
+    top: 20%;
+    left: 0;
+    right: 0;
+    width: 98%;
+    height: auto;
+    background-color: lightgray;
+    margin: auto;
+}
+
+.view-value-vehicles{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+
+#vehicles-row{
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#export-vehicles{
+    color: white;
+    border:5px;
+    background-color: red;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-size: 16pt;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#export-vehicles:hover{
+    color: rgb(255, 95, 95);
+    background-color: white;
+    transition: 0.2s;
+}
+#export-vehicles:active{
+    color: red;
+    background-color: black;
+    transition: 0s;
+}
+
+
+#refresh-page-button-vehicles, #refresh-button-del-vehicles, #refresh-button-edit-vehicles{ /* no display, just to update */
+    padding: 0px;
+    border: none;
+    background: transparent;
+    font-size: 0;
+}
+
+
+
